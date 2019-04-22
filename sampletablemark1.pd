@@ -1,9 +1,0 @@
-#N canvas 0 23 450 300 10;
-#X obj 145 109 table \$1-sample 44100;
-#X obj 141 149 r \$1-freq;
-#X floatatom 141 170 5 0 0 0 - - -;
-#X obj 214 150 r \$1-length;
-#X floatatom 214 171 5 0 0 0 - - -;
-#X obj 145 89 table \$1-hist 127;
-#X connect 1 0 2 0;
-#X connect 3 0 4 0;
